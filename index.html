@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Formulário de Inscrição | Xuaqrid </title>
+</head>
+<body>
+    <h1>Inscrição</h1>
+
+    <form>
+        <h2>Olá, preencha seus dados para realizar sua inscrição</h2>
+        <div class="left">
+            <input type="text" placeholder="Nome Completo*" required>
+            <input type="email" placeholder="E-mail*" required>
+            <input type="text" placeholder="Telefone">
+            <input type="text" placeholder="Data de Nascimento*" required>
+            <label>
+                Genêro
+                <input type="radio" name="gen">Masculino
+                <input type="radio" name="gen">Feminino
+            </label>
+            <label for="formadeingresso">Forma de ingresso:</label>
+            <select id="formadeingresso" name="formadeingresso">
+                <option></option>
+                <option value="enem">Enem</option>
+                <option value="vestibular">Vestibular</option>
+                <option value="transferencia">Transferência</option>
+            </select>
+            <label for="curso">Curso</label>
+            <select id="curso" name="curso">
+                <option></option>
+                <option value="eng">Engenheira Civil</option>
+                <option value="med">Medicina</option>
+                <option value="dir">Direito</option>
+            </select>
+            <label for="turno">Turno</label>
+            <select id="turno" name="turno">
+                <option></option>
+                <option value="mat">Matutino</option>
+                <option value="ves">Vespertino</option>
+                <option value="not">Noturno</option>
+            </select>
+        </div>
+
+        <div class="right">
+            <input type="text" placeholder="Cupom">
+            <label for="local">Local de prova</label>
+            <select id="local" name="local">
+                <option value="ssa">Salvador</option>
+                <option value="bh">Belo Horizonte</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option>
+            </select>
+            <input type="text" placeholder="CPF" required>
+            <input type="text" placeholder="RG" required>
+            <input type="text" placeholder="Matrícula" required>
+            <input type="submit" value="Enviar">
+
+        </div>
+
+    </form>
+
+
+
+</body>
+</html>
