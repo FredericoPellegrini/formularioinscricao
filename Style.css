@@ -1,11 +1,130 @@
-h1{
-    color: red
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(234, 252, 252);
+    width: 50%;
+    height: 1400px;
+    border-radius: 15px;
+  }
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    margin: 50px;
+    border-radius: 15px;
+
 }
 
 .right{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    margin: 50px;
+    border-radius: 15px;
 }
 
-.left{
-    background-color: blue;
+input{
+    width: 500px;
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 15px;
 }
+
+label{
+    padding: 15px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+label .gen{
+    height: 13px;
+    width: 50px;
+}
+
+select{
+    width: 55%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.selecionar{
+    display: flex;
+    flex-direction: row;
+}
+
+label[for="formadeingresso"] {
+    margin-top: 30px;
+}
+
+label[for="curso"] {
+    margin-top: 30px;
+}
+
+.selecionarcurso select{
+    width: 69%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 15px;
+
+}
+
+.selecionarturno select{
+    width: 69%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.localdeprova select{
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.localdeprova{
+    display: flex;
+    flex-direction: row;
+}
+
+label[for="local"] {
+    margin-top: 30px;
+}
+
+.btn {
+    width: 25%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+  }
+
+  h1, h2{
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+  }
